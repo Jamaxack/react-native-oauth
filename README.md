@@ -173,7 +173,7 @@ One note, *all* of the callback urls follow the scheme: `http://localhost/[provi
 Make sure you add the following to your `android/build.gradle` file:
 
 ```
-maven { url "https://jitpack.io" }
+maven { url "https://www.jitpack.io" }
 ```
 
 For instance, an example `android/build.gradle` file would look like this:
@@ -189,7 +189,7 @@ allprojects {
     repositories {
         mavenLocal()
         jcenter()
-        maven { url "https://jitpack.io" } // <~ ADD THIS LINE
+        maven { url "https://www.jitpack.io" } // <~ ADD THIS LINE
         maven {
             url "$rootDir/../node_modules/react-native/android"
         }
